@@ -20,12 +20,12 @@
     <!-- Section 1: Header Logo - White background with company logo aligned right -->
     <mj-section padding-top="40px" padding-bottom="20px" background-color="#FFFFFF">
       <mj-column width="570px">
-        <mj-image src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/ae90e3e37fc108791ab548b9c6e2d3669a9774b2/Images/Novo%20nordisk%20logo.svg?token=BQZOYFAP6MZOMIJGK7P2YD3IIL5YK" width="100px" align="right" alt="nordisk logo" border="none" padding="0px"></mj-image>
+        <mj-image src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/ae90e3e37fc108791ab548b9c6e2d3669a9774b2/Images/Novo%20nordisk%20logo.svg?token=BQZOYFFNJCX2LW4QVQ6VU63IIMALW" width="100px" align="right" alt="nordisk logo" border="none" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
 
     <!-- Section 2: Hero Banner - Full-width background image with semi-transparent overlay -->
-    <mj-section background-url="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Header%20image-02.jpg?token=GHSAT0AAAAAADDTCG35KJKIB7B5ZXHCEL362CC7TVA" background-size="cover" background-repeat="no-repeat" padding="0px">
+    <mj-section background-url="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Header%20image-02.jpg?token=GHSAT0AAAAAADDTCG35YKREVWNPDM4F2TLY2CDAB6A" background-size="cover" background-repeat="no-repeat" padding="0px">
       <mj-column>
         <mj-text padding="50px 25px" align="left" font-size="22px" font-family="Arial" color="#ffffff" background-color="rgba(0, 0, 0, 0.4)">
           <strong>NOVO NORDISK ®</strong><br/>
@@ -166,7 +166,7 @@
 
             <!-- Conference logo image -->
             <mj-image
-              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/32nd%20on%20obesity%20logo-03.jpg?token=GHSAT0AAAAAADDTCG35OE4Y3U3U7OWCRFDQ2CC7NAA"
+              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/32nd%20on%20obesity%20logo-03.jpg?token=GHSAT0AAAAAADDTCG357YVUXYU4557ZCIT42CDAGCQ"
               alt="Logo"
               width="120px"
               padding="0"
@@ -223,7 +223,7 @@
 
             <!-- Conference logo image -->
             <mj-image
-              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Artboard%201%20copy%203.png?token=GHSAT0AAAAAADDTCG353EWWGNJAKPPPP3BK2CC7KTQ"
+              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Artboard%201%20copy%203.png?token=GHSAT0AAAAAADDTCG346CJFJOCQ4B6VZVJG2CDAFVQ"
               alt="Logo"
               width="120px"
               padding="0"
@@ -269,7 +269,7 @@
             padding="40px"
           >
             <mj-image
-              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/image_science%205.0-05.jpg?token=GHSAT0AAAAAADDTCG34E3VBWQXIEZS3R7QS2CC7LFA"
+              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/image_science%205.0-05.jpg?token=GHSAT0AAAAAADDTCG35J3EPTZDKLVJ2WZX62CDAE5A"
               alt="Conference Image"
               width="180px"
               padding="0"
@@ -314,7 +314,7 @@
             padding="40px"
           >
             <mj-image
-              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/People-06.jpg?token=GHSAT0AAAAAADDTCG35DSCU5UCDZLT7EEF62CC7LZA"
+              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/People-06.jpg?token=GHSAT0AAAAAADDTCG35STDFI5UZXFZA3OZW2CDAEIQ"
               alt="Conference Image"
               width="180px"
               padding="0"
@@ -360,7 +360,7 @@
             padding="40px"
           >
             <mj-image
-              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Women-07.jpg?token=GHSAT0AAAAAADDTCG35HIJLGQZW2YKIG4GK2CC7MGA"
+              src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/refs/heads/main/Images/Women-07.jpg?token=GHSAT0AAAAAADDTCG35OQCBMEIIB6T6EK7U2CDADTQ"
               alt="Conference Image"
               width="180px"
               padding="0"
@@ -413,7 +413,7 @@ launch of NovoEight in rare diseases.
       </mj-column>
       <mj-column width="30%" vertical-align="middle">
         <mj-image 
-          src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/ae90e3e37fc108791ab548b9c6e2d3669a9774b2/Images/Novo%20nordisk%20logo.svg?token=BQZOYFAP6MZOMIJGK7P2YD3IIL5YK" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/Test-mailer/ae90e3e37fc108791ab548b9c6e2d3669a9774b2/Images/Novo%20nordisk%20logo.svg?token=BQZOYFFNJCX2LW4QVQ6VU63IIMALW" 
           alt="Novo Nordisk Logo" 
           width="100px" 
           align="right" 
