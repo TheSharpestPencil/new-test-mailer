@@ -25,17 +25,33 @@
       </mj-column>
     </mj-section>
 
-    <!-- Section 2: Hero Banner - Full-width background image with semi-transparent overlay -->
-    <mj-section background-url="Images/Header image-02.jpg" background-size="cover" background-repeat="no-repeat" padding="0px">
-      <mj-column>
-        <mj-text padding="50px 25px" align="left" font-size="22px" font-family="Arial" color="#ffffff" background-color="rgba(0, 0, 0, 0.4)">
-          NOVO NORDISK ®<br/><br/><br/>
-        <strong style="font-size: 70px;">NEWSLETTER<br/><br/></strong>
-          <span style="font-size: 16px;">MAY 2025! issue: 1</span>
-        </mj-text>
-      </mj-column>
-      </mj-section> 
-    <mj-section padding="0px">
+<!-- Section 2: Hero Banner - Full-width background image with blue shape behind text -->
+<mj-section 
+  background-url="Images/Header image-02.jpg" 
+  background-size="cover" 
+  background-repeat="no-repeat" 
+  padding="0px"
+>
+  <mj-column>
+
+    <!-- Blue background shape as the text box -->
+    <mj-text 
+      padding="60px 30px" 
+      align="left" 
+      font-size="22px" 
+      font-family="Arial" 
+      color="#ffffff" 
+      background-color="#003878" 
+      border-radius="8px"
+    >
+      NOVO NORDISK ®<br/><br/>
+      <strong style="font-size: 70px;">NEWSLETTER</strong><br/><br/>
+      <span style="font-size: 16px; font-style: italic;">MAY 2025 | issue: 1</span>
+    </mj-text>
+
+  </mj-column>
+</mj-section>
+
 
 
     <!-- Section 3: Introduction - Dark blue background with welcome message -->
@@ -270,17 +286,15 @@
           font-weight="bold"
           padding-bottom="20px"
         >
-          FCPSA Conference | A Strategic Lens on Diabetes and Obesity
+          FCPSA Conference |<br/> A Strategic Lens on Diabetes and Obesity
         </mj-text>
 
         <!-- Logo image with white stroke -->
         <mj-image
           src="Images/Artboard 1 copy 3.png"
           alt="FCPSA Logo"
-          width="170px"
-          padding="0"
+          display="block"
           align="left"
-          border="3px solid #ffffff"
         />
       </mj-column>
 
@@ -302,7 +316,13 @@
           • New guidelines advocating waist-to-height ratio over BMI for obesity classification.<br />
           • STEP trial learnings on semaglutide.<br />
           • Real-world perspectives on long-term weight management and treatment sustainability.<br /><br />
-          <strong>Read the full FCPSA summary.</strong>
+           
+           </mj-text>
+
+            <mj-text
+             style="background-color:#ffffff;"
+            >
+          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the full FCPSA summary.</strong>
         </mj-text>
       </mj-column>
 
@@ -311,76 +331,106 @@
 </mj-section>
 
 
-   
-    <!-- Section 9: SAAHIP Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="15px 25px">
-      <!-- Gray container for content -->
-      <mj-column background-color="#dfefef" padding="0">
-        <!-- Two-column layout with image and description -->
-        <mj-section padding="0">
-          <!-- Left column: Conference image -->
-          <mj-column
-            width="40%"
-            vertical-align="middle"
-            padding="1px"
-          >
-            <mj-image
-              src="Images/image_science 5.0-05.jpg"
-              alt="Conference Image"
-              width="1080px"
-              padding="0"
-              align="center"
-              style="border-radius: 10px; border: 2px solid #ffffff;"
-            />
-          </mj-column>
 
-          <!-- Right column: Conference details and description -->
-          <mj-column
-            width="55%"
-            vertical-align="middle"
-            padding="30px 20px"
-          >
-            <mj-text
-              align="left"
-              color="#003878"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-              <span style="font-size:20px"><strong>SAAHIP Conference | Public Sector <br />Reflections and Momentum </strong><br /></span>
-              The <strong>SAAHIP Conference 2025</strong> gave Public Sector colleagues an opportunity to engage in dynamic plenaries and reaffirm 
-              our partnership with healthcare professionals in the state sector.<br/><br/> 
-              
-              Key themes included <strong>pharmacy's role in universal health coverage,</strong>
-              practical solutions to medicine access challenges, and the growing interest in <strong>public-private collaborations.</strong>
 
-              <br /><br />
-              <span><strong>Read the SAAHIP report here.</strong></span>
+<!-- Section 9: SAAHIP Conference - Two-column layout with image -->
+<mj-section background-color="#ffffff" padding="15px 25px">
+  <mj-section background-color="#dfefef" padding="10px">
+
+    <!-- Left column: header + logo -->
+    <mj-column
+      width="40%"
+      vertical-align="middle"
+      background-color="#011971"
+      padding="40px 20px"
+    >
+      <mj-text
+        align="left"
+        color="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="22px"
+        line-height="24px"
+        font-weight="bold"
+        padding-bottom="20px"
+      >
+        SAAHIP Conference | Public Sector Reflections and Momentum
+      </mj-text>
+
+      <!-- Logo image with white stroke -->
+      <mj-image
+        src="Images/image_science 5.0-05.jpg"
+        alt="SAAHIP image"
+        width="1080px"
+        align="left"
+        border="3px solid #ffffff"
+      />
+    </mj-column>
+
+    <!-- Right column: Conference details and description -->
+    <mj-column
+      width="55%"
+      vertical-align="middle"
+      padding="10px 20px"
+    >
+      <mj-text
+        align="left"
+        color="#003878"
+        font-family="Arial, sans-serif"
+        font-size="14px"
+        line-height="1.6"
+      >
+        The <strong>SAAHIP Conference 2025</strong> gave Public Sector colleagues an opportunity to engage in dynamic plenaries and reaffirm
+        our partnership with healthcare professionals in the state sector.<br/><br/>
+
+        Key themes included <strong>pharmacy's role in universal health coverage,</strong>
+        practical solutions to medicine access challenges, and the growing interest in <strong>public-private collaborations.</strong>
+
+        <br /><br />
             </mj-text>
-          </mj-column>
-        </mj-section>
-      </mj-column>
-    </mj-section>
+
+            <mj-text
+             style="background-color:#ffffff;"
+            >
+          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the SAAHIP report here.</strong>
+        </mj-text>
+    </mj-column>
+
+  </mj-section>
+</mj-section>
+
 
     <!-- Section 10: GGPF Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="5px 25px">
-      <!-- Gray container for content -->
-      <mj-column background-color="#d9e6f8" padding="0">
-        <!-- Two-column layout with image and description -->
-        <mj-section padding="0">
-          <!-- Left column: Conference image -->
-          <mj-column
-            width="40%"
-            vertical-align="middle"
-            padding="10px"
-          >
-            <mj-image
-              src="Images/People-06.jpg"
-              alt="Conference Image"
-              width="1080px"
-              align="center"
-            />
-          </mj-column>
+<mj-section background-color="#ffffff" padding="15px 25px">
+  <mj-section background-color="#d9e6f8" padding="10px">
+
+    <!-- Left column: header + logo -->
+    <mj-column
+      width="40%"
+      vertical-align="middle"
+      background-color="#011971"
+      padding="20px 20px"
+    >
+      <mj-text
+        align="left"
+        color="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="22px"
+        line-height="24px"
+        font-weight="bold"
+        padding-bottom="20px"
+      >
+       GGPF | Primary Care and Public Health in Focus Reflections and Momentum 
+      </mj-text>
+
+      <!-- Logo image with white stroke -->
+      <mj-image
+        src="Images/People-06.jpg"
+        alt="SAAHIP image"
+        width="1080px"
+        align="left"
+        border="3px solid #ffffff"
+      />
+    </mj-column>
 
           <!-- Right column: Conference details and description -->
           <mj-column
@@ -390,23 +440,26 @@
           >
             <mj-text
               align="left"
-              color="#333333"
+              color="#011971"
               font-family="Arial, sans-serif"
               font-size="14px"
               line-height="1.6"
             >
 
-              <span style="font-size:20px"><strong>GGPF | Primary Care and Public Health in Focus Reflections and Momentum </strong><br /></span>
               Held on the 13th of April in Gauteng – the event was attended by approximately 250 doctors. GGPF conferences 
               have become a cornerstone for Family Practitioners seeking to stay abreast of the latest industry trends and 
               ensuring compliance with HPCSA regulations on continuous education. The team shared insights and innovations 
               at the Gauteng General Practitioners Forum (GGPF) event—continuing our collaboration with primary care leaders 
               and highlighting our solutions for chronic disease management in community settings.
 
-              <br /><br />
-              <span><strong>View the GGPF highlights here.</strong></span>
-
+       <br /><br />
             </mj-text>
+
+            <mj-text
+             style="background-color:#ffffff;"
+            >
+          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">View the GGPF highlights here.</strong>
+        </mj-text>
           </mj-column>
         </mj-section>
       </mj-column>
@@ -423,17 +476,18 @@
             vertical-align="middle"
             padding="20px"
           >
-<mj-section background-color="white" padding="15px 3px">
+<mj-section padding="15px 3px">
   <mj-column>
     <mj-table>
       <tr>
         <!-- Image on the left -->
         <td style="padding-right: 5px;">
           <img
-            src="Images\Women-07.jpg"
+            src="Images/Women-07.jpg"
             alt="Conference Image"
             width="350px"
-            style="display: block; padding-left: 10px;"
+            style="border: 3px solid #ffffff; display: block;;"
+
           />
         </td>
 
@@ -459,9 +513,16 @@
               rare diseases was notable, with follow-up discussions underway for a potential pilot with CAMAF.
               Key highlights included strong recognition of obesity's cost impact on medical schemes, growing
               funder openness to covering treatments like Ozempic, and excitement around the upcoming
-              launch of NovoEight in rare diseases. <br /><br />
-              <span><strong>Read the full report here.</strong></span>
+              launch of NovoEight in rare diseases.
+
+                     <br /><br />
             </mj-text>
+
+            <mj-text
+             style="background-color:#ffffff;"
+            >
+          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the full report here.</strong>
+        </mj-text>
         </mj-section>
       </mj-column>
     </mj-section>
@@ -475,7 +536,7 @@
           line-height="1.6"
         >
           <strong>A Friendly Reminder on Internal Communications<br/></strong>
-          A Friendly Reminder on Internal Communications
+         
           To help us streamline messaging, reduce duplication, 
           and ensure a consistent voice across the business, all 
           company-wide or business-wide communications should be routed 
