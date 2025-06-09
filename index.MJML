@@ -6,6 +6,7 @@
     <!-- Load Google Fonts Alice and Roboto -->
     <mj-font name="Alice" href="https://fonts.googleapis.com/css?family=Alice"></mj-font>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700"></mj-font>
+    
 
     <!-- Default styles applied globally -->
     <mj-attributes>
@@ -247,9 +248,9 @@
 </mj-section>
 
 
-   <mj-section background-color="#ffffff" padding="5px 25px">
-  <!-- Pink-gray container -->
-  <mj-column background-color="#fdf2f5" padding="0">
+<mj-section background-color="#ffffff" padding="5px 25px">
+  <!-- Pink-gray container with drop shadow -->
+  <mj-column background-color="#fdf2f5" padding="0" css-class="shadow-box">
     <!-- Inner section: two-column layout -->
     <mj-section padding="0">
 
@@ -258,7 +259,7 @@
         width="40%"
         vertical-align="middle"
         background-color="#011971"
-        padding="60px"
+        padding="80px 20px"
       >
         <mj-text
           align="left"
@@ -300,8 +301,7 @@
           <strong>Key insights:</strong><br />
           • New guidelines advocating waist-to-height ratio over BMI for obesity classification.<br />
           • STEP trial learnings on semaglutide.<br />
-          • Real-world perspectives on long-term weight management and treatment sustainability.<br />
-          <br />
+          • Real-world perspectives on long-term weight management and treatment sustainability.<br /><br />
           <strong>Read the full FCPSA summary.</strong>
         </mj-text>
       </mj-column>
@@ -310,46 +310,52 @@
   </mj-column>
 </mj-section>
 
+
    
     <!-- Section 9: SAAHIP Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="10px 25px">
+    <mj-section background-color="#ffffff" padding="15px 25px">
       <!-- Gray container for content -->
       <mj-column background-color="#dfefef" padding="0">
         <!-- Two-column layout with image and description -->
         <mj-section padding="0">
           <!-- Left column: Conference image -->
           <mj-column
-            width="50%"
+            width="40%"
             vertical-align="middle"
-            padding="40px"
+            padding="1px"
           >
             <mj-image
               src="Images/image_science 5.0-05.jpg"
               alt="Conference Image"
-              width="180px"
+              width="1080px"
               padding="0"
               align="center"
+              style="border-radius: 10px; border: 2px solid #ffffff;"
             />
           </mj-column>
 
           <!-- Right column: Conference details and description -->
           <mj-column
-            width="50%"
+            width="55%"
             vertical-align="middle"
             padding="30px 20px"
           >
             <mj-text
               align="left"
-              color="#333333"
+              color="#003878"
               font-family="Arial, sans-serif"
               font-size="14px"
               line-height="1.6"
             >
-              <strong>SAAHIP Conference | <br /> Public Sector Reflections <br /> and Momentum </strong><br /><br />
-              The SAAHIP Conference 2025 gave Public Sector colleagues an opportunity to engage in dynamic plenaries and reaffirm our partnership with 
-              healthcare professionals in the state sector. 
-              Key themes included pharmacy's role in universal health coverage, practical solutions to medicine access challenges, and the growing interest 
-              in public-private collaborations.
+              <span style="font-size:20px"><strong>SAAHIP Conference | Public Sector <br />Reflections and Momentum </strong><br /></span>
+              The <strong>SAAHIP Conference 2025</strong> gave Public Sector colleagues an opportunity to engage in dynamic plenaries and reaffirm 
+              our partnership with healthcare professionals in the state sector.<br/><br/> 
+              
+              Key themes included <strong>pharmacy's role in universal health coverage,</strong>
+              practical solutions to medicine access challenges, and the growing interest in <strong>public-private collaborations.</strong>
+
+              <br /><br />
+              <span><strong>Read the SAAHIP report here.</strong></span>
             </mj-text>
           </mj-column>
         </mj-section>
@@ -357,29 +363,28 @@
     </mj-section>
 
     <!-- Section 10: GGPF Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="30px">
+    <mj-section background-color="#ffffff" padding="5px 25px">
       <!-- Gray container for content -->
       <mj-column background-color="#d9e6f8" padding="0">
         <!-- Two-column layout with image and description -->
         <mj-section padding="0">
           <!-- Left column: Conference image -->
           <mj-column
-            width="50%"
+            width="40%"
             vertical-align="middle"
-            padding="40px"
+            padding="10px"
           >
             <mj-image
               src="Images/People-06.jpg"
               alt="Conference Image"
-              width="180px"
-              padding="0"
+              width="1080px"
               align="center"
             />
           </mj-column>
 
           <!-- Right column: Conference details and description -->
           <mj-column
-            width="50%"
+            width="55%"
             vertical-align="middle"
             padding="30px 20px"
           >
@@ -390,12 +395,17 @@
               font-size="14px"
               line-height="1.6"
             >
-              <strong>GGPF | Primary Care and Public Health in Focus</strong><br /><br />
+
+              <span style="font-size:20px"><strong>GGPF | Primary Care and Public Health in Focus Reflections and Momentum </strong><br /></span>
               Held on the 13th of April in Gauteng – the event was attended by approximately 250 doctors. GGPF conferences 
               have become a cornerstone for Family Practitioners seeking to stay abreast of the latest industry trends and 
               ensuring compliance with HPCSA regulations on continuous education. The team shared insights and innovations 
               at the Gauteng General Practitioners Forum (GGPF) event—continuing our collaboration with primary care leaders 
               and highlighting our solutions for chronic disease management in community settings.
+
+              <br /><br />
+              <span><strong>View the GGPF highlights here.</strong></span>
+
             </mj-text>
           </mj-column>
         </mj-section>
@@ -403,73 +413,104 @@
     </mj-section>
 
     <!-- Section 11: CAMAF Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="30px">
+    <mj-section background-color="#ffffff" padding="15px 25px">
       <!-- Gray container for content -->
       <mj-column background-color="#dff0f0" padding="0">
         <!-- Two-column layout with image and description -->
         <mj-section padding="0">
           <!-- Left column: Conference image -->
           <mj-column
-            width="50%"
             vertical-align="middle"
-            padding="40px"
+            padding="20px"
           >
-            <mj-image
-              src="Images/Women-07.jpg"
-              alt="Conference Image"
-              width="180px"
-              padding="0"
-              align="center"
-            />
-          </mj-column>
+<mj-section background-color="white" padding="15px 3px">
+  <mj-column>
+    <mj-table>
+      <tr>
+        <!-- Image on the left -->
+        <td style="padding-right: 5px;">
+          <img
+            src="Images\Women-07.jpg"
+            alt="Conference Image"
+            width="350px"
+            style="display: block; padding-left: 10px;"
+          />
+        </td>
 
-          <!-- Right column: Conference details and description -->
-          <mj-column
-            width="70%"
-            vertical-align="middle"
-            padding="30px 20px"
-          >
-            <mj-text
-              align="left"
-              color="#333333"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-              <strong>Case Managers South Africa (CMASA) Congress</strong><br /><br />
+        <!-- Text on the right -->
+        <td style="color: #011971; font-family: Arial, sans-serif; font-size: 22px; line-height: 1.6; padding-left: 20px;">
+          <span style="font-weight: bold;">Case Managers South Africa (CMASA) Congress</span><br /><br />
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+    <mj-text
+        align="left"
+        color="#011971"
+        font-family="Arial, sans-serif"
+        font-size="14px"
+        line-height="1.6"
+     >
               Held from 2–5 April in Umhlanga, this congress brought together 200 delegates across private
-and public funders. Michel Nel's session on obesity as a modifiable risk factor drew strong
-engagement, reinforcing the need for proactive management. Interest in obesity, diabetes, and
-rare diseases was notable, with follow-up discussions underway for a potential pilot with CAMAF.
-Key highlights included strong recognition of obesity's cost impact on medical schemes, growing
-funder openness to covering treatments like Ozempic, and excitement around the upcoming
-launch of NovoEight in rare diseases.
+              and public funders. Michel Nel's session on obesity as a modifiable risk factor drew strong
+              engagement, reinforcing the need for proactive management. Interest in obesity, diabetes, and
+              rare diseases was notable, with follow-up discussions underway for a potential pilot with CAMAF.
+              Key highlights included strong recognition of obesity's cost impact on medical schemes, growing
+              funder openness to covering treatments like Ozempic, and excitement around the upcoming
+              launch of NovoEight in rare diseases. <br /><br />
+              <span><strong>Read the full report here.</strong></span>
             </mj-text>
-          </mj-column>
         </mj-section>
       </mj-column>
     </mj-section>
+    <!-- Section 12: Footer - disclaimer -->
+    <mj-section background-color="#ffffff" padding="30px 35px">
+      <mj-column  vertical-align="middle">
+        <mj-text
+          font-family="Arial, sans-serif"
+          font-size="15px"
+          color="#011971"
+          line-height="1.6"
+        >
+          <strong>A Friendly Reminder on Internal Communications<br/></strong>
+          A Friendly Reminder on Internal Communications
+          To help us streamline messaging, reduce duplication, 
+          and ensure a consistent voice across the business, all 
+          company-wide or business-wide communications should be routed 
+          through the Communications team. We’ll make sure they’re reviewed 
+          and distributed from the appropriate mailbox, following the correct process.
+          Thanks for helping us keep communication purposeful and aligned!
 
+          </strong>
+          
+        </mj-text>
+      </mj-column>
+      </mj-column>
+    </mj-section>
     <!-- Section 12: Footer - Company information and logo -->
-    <mj-section background-color="#ffffff" padding="30px 20px">
+    <mj-section background-color="#ffffff" padding="180px 20px 40px 20px">
       <mj-column width="70%" vertical-align="middle">
         <mj-text
           font-family="Arial, sans-serif"
           font-size="12px"
-          color="003366"
+          color="#011971"
           line-height="1.6"
           padding="0 20px 0 0"
         >
-          © 2025 Novo Nordisk South Africa<br/>
+          <strong>© 2025 Novo Nordisk South Africa<br/>
           NOVO NORDISK PTY LTD<br/>
           90 Grayston Drive, Fourth Floor, Sandown, Sandton, 2031, Gauteng<br/>
           Office: +27 (11) 202-0500
+          </strong>
+
         </mj-text>
       </mj-column>
       <mj-column width="30%" vertical-align="middle">
         <mj-image 
           src="Images\Novo nordisk logo.svg" 
-          alt="Novo Nordisk Logo" 
+          alt="Novo Nordisk Logo"
           width="100px" 
           align="right" 
           border="none"
