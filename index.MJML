@@ -2,7 +2,7 @@
 <mjml>
   <!-- Head section: Contains metadata, fonts, and global styles -->
   <mj-head>
-    <mj-title>Say hello to RealEstate</mj-title>
+    <mj-title>Novo Nordisk</mj-title>
     <!-- Load Google Fonts Alice and Roboto -->
     <mj-font name="Alice" href="https://fonts.googleapis.com/css?family=Alice"></mj-font>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700"></mj-font>
@@ -18,9 +18,9 @@
   <mj-body background-color="#dae6f9" width="800px">
 
     <!-- Section 1: Header Logo - White background with company logo aligned right -->
-    <mj-section padding-top="40px" padding-bottom="20px" background-color="#FFFFFF">
+    <mj-section padding-top="40px" padding-left="170px" padding-bottom="20px" background-color="#FFFFFF">
       <mj-column width="570px">
-        <mj-image src="Images\Novo nordisk logo.svg" width="100px" align="right" alt="nordisk logo" border="none" padding="0px"></mj-image>
+        <mj-image src="Images\Novo nordisk logo.svg" width="100px" align="right" alt="nordisk logo" border="none" padding-left="220px"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -28,15 +28,18 @@
     <mj-section background-url="Images/Header image-02.jpg" background-size="cover" background-repeat="no-repeat" padding="0px">
       <mj-column>
         <mj-text padding="50px 25px" align="left" font-size="22px" font-family="Arial" color="#ffffff" background-color="rgba(0, 0, 0, 0.4)">
-          <strong>NOVO NORDISK ®</strong><br/>
-          NEWSLETTER<br/>
+          NOVO NORDISK ®<br/><br/><br/>
+        <strong style="font-size: 70px;">NEWSLETTER<br/><br/></strong>
           <span style="font-size: 16px;">MAY 2025! issue: 1</span>
         </mj-text>
       </mj-column>
-    </mj-section>
+      </mj-section> 
+    <mj-section padding="0px">
+
 
     <!-- Section 3: Introduction - Dark blue background with welcome message -->
-    <mj-section background-color="#003366" padding="20px 0">
+    <mj-wrapper background-color="white" padding-top="30px" padding-left="3%" padding-right="3%">
+    <mj-section background-color="#003366"  padding="20px ">
       <mj-column>
         <mj-text align="left" font-family="Arial, sans-serif" color="#ffffff" padding="10px 25px">
           <h3 style="margin: 0; font-size: 20px;">Dear colleagues,</h3>
@@ -51,215 +54,264 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    </mj-wrapper>
 
     <!-- Section 4: BHF Conference - Two-column layout with colored backgrounds -->
-    <mj-section background-color="#ffffff" padding="30px">
-      <!-- Light blue container for content -->
-      <mj-column background-color="#dae6f9" padding="0">
-        <!-- Two-column layout for conference information -->
-        <mj-section padding="0">
-          <!-- Left column: Dark blue header with conference name -->
-          <mj-column width="50%" vertical-align="middle" background-color="#011971" padding="40px">
-            <mj-text
-              align="center"
-              color="#ffffff"
-              font-family="Arial, sans-serif"
-              font-size="16px"
-              line-height="24px"
-            >
-              BHF Conference | Catalysing Policy Conversations on Obesity!
-            </mj-text>
-          </mj-column>
-          
-          <!-- Right column: Conference details and description -->
-          <mj-column width="50%" vertical-align="middle" padding="30px 20px">
-            <mj-text
-              align="left"
-              color="#333333"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-            Held in Cape Town from 10–14 May, the 24th Annual BHF Conference drew over 1,000 health funders and policymakers. 
-            We proudly sponsored Prof. Partha Kar (NHS England) to speak on obesity as a complex and chronic disease — a message 
-            that strongly resonated with attendees. Our session, Holistic Management of Obesity, delivered by Prof. Kar, marked a 
-            key milestone in shifting the narrative: reframing obesity as both a chronic disease and a modifiable risk factor. 
-            This platform also created a valuable opportunity to begin critical conversations with funders about the long-term burden of obesity on medical schemes — and the importance of value-based solutions.
-            To reinforce our presence, our obesity-focused advert was featured in the BHF magazine, extending the impact of our message beyond the stage. Following Prof. Kar’s presentation, we supported awareness efforts further by distributing desk drops highlighting South African obesity statistics, helping to engage stakeholders and inform policy makers. 
+<mj-wrapper background-color="white" padding="25px">
+  <mj-section background-color="#dae6f9" padding="15px 15px">
+    
+    <!-- Left column: Dark blue header with conference name -->
+    <mj-column width="40%" vertical-align="middle" background-color="#011971" padding="20px 20px 20px 15px">
+      <mj-text
+        align="left"
+        color="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="20px"
+        line-height="24px"
+        padding="0 0 10px 0"
+      >
+        <strong>BHF Conference | Catalysing Policy Conversations on Obesity!</strong>
+      </mj-text>
+       <!-- Two images side by side using table -->
+       <mj-text padding="10px 0 0px 0" align="center"> 
+        <img src="Images/BHF3.jpg"
+             alt="BHF Conference Image"
+             width="90%"
+             style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 100%; height: auto;"
+             padding-bottom="20px" />
+        </mj-text>   
 
-            </mj-text>
-          </mj-column>
-        </mj-section>
+        <mj-text padding="20px 0 0px 0" align="center">  
+        <img src="Images\BHF.PNG.jpg"
+             alt="BHF Conference Image"
+             width="90%"
+             style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 100%; height: auto;"
+             />
+        </mj-text>
+
+    </mj-column>
+
+    <!-- Right column: Conference details and description -->
+    <mj-column width="60%" vertical-align="middle" padding="10px 20px">
+      <mj-text
+        align="left"
+        color="#011971"
+        font-family="Arial, sans-serif"
+        font-size="14px"
+        line-height="1.6"
+      >
+        Held in Cape Town from 10–14 May, the 24th Annual BHF Conference drew over 1,000 health funders and policymakers. 
+        We proudly sponsored Prof. Partha Kar (NHS England) to speak on obesity as a complex and chronic disease — a message 
+        that strongly resonated with attendees. 
+        <br /><br />
+        Our session, Holistic Management of Obesity, delivered by Prof. Kar, marked a 
+        key milestone in shifting the narrative: reframing obesity as both a chronic disease and a modifiable risk factor. 
+        This platform also created a valuable opportunity to begin critical conversations with funders about the long-term 
+        burden of obesity on medical schemes — and the importance of value-based solutions.
+        <br /><br />
+        To reinforce our presence, our obesity-focused advert was featured in the BHF magazine, 
+        extending the impact of our message beyond the stage. Following Prof. Kar’s presentation, 
+        we supported awareness efforts further by distributing desk drops highlighting South African 
+        obesity statistics, helping to engage stakeholders and inform policy makers.
+      </mj-text>
+  <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
+    <tr style="background-color: rgba(3, 101, 216, 0.6);">
+      <td align="left" style="padding: 20px 25px;">
+        <img src="Images/BHF 2 magazine.jpg" width="220px" alt="BHF Image" style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 220px; height: auto;" />
+      </td>
+      <td style="padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;">
+        <p><strong> Read the BHF <br /> 
+        summary here. </strong></p>
+      </td>
+    </tr>
+  </mj-table>
+    </mj-column>
+
+  </mj-section>
+</mj-wrapper>
+
+
+   <mj-section background-color="#ffffff" padding="3px 25px">
+  <!-- Light gray container for content -->
+  <mj-column background-color="#dfefef" padding="0">
+    
+    <!-- Two-column layout for conference information -->
+    <mj-section padding="0">
+      
+      <!-- Left column with heading and two images -->
+      <mj-column
+        width="40%"
+        vertical-align="middle"
+        background-color="#011971"
+        padding="40px"
+      >
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-family="Arial, sans-serif"
+          font-size="22px"
+          line-height="28px"
+        >
+          <strong> Showcasing Leadership at SEMSD </strong>
+    
       </mj-column>
-    </mj-section>
 
-    <!-- Section 5: SEMSD Conference - Two-column layout with colored backgrounds -->
-    <mj-section background-color="#ffffff" padding="30px">
-      <!-- Light gray container for content -->
-      <mj-column background-color="#dfefef" padding="0">
-        <!-- Two-column layout for conference information -->
-        <mj-section padding="0">
-          <!-- Left column: Dark blue header with conference name -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            background-color="#011971"
-            padding="40px"
-          >
-            <mj-text
-              align="center"
-              color="#ffffff"
-              font-family="Arial, sans-serif"
-              font-size="16px"
-              line-height="24px"
-            >
-              Showcasing Leadership at SEMSD
-            </mj-text>
-          </mj-column>
-
-          <!-- Right column: Conference details and description -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            padding="30px 20px"
-          >
-            <mj-text
-              align="left"
-              color="#333333"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-              Our team is proud to be attending the South African Endocrine and Metabolic Society for 
-              Diabetes in Africa (SEMSDA) congress this year, reinforcing our commitment to advancing 
-              care in diabetes and metabolic health. As part of our support, we have proudly sponsored 
-              three expert speakers who will contribute to critical conversations shaping the future of 
-              diabetes management on the continent.
-            </mj-text>
-          </mj-column>
-        </mj-section>
+      <!-- Right column with description -->
+      <mj-column
+        width="55%"
+        vertical-align="middle"
+        padding="30px 20px"
+      >
+        <mj-text
+          align="left"
+          color="#011971"
+          font-family="Arial, sans-serif"
+          font-size="14px"
+          line-height="1.6"
+        >
+          Our team is proud to be attending the South African Endocrine and Metabolic Society for 
+          Diabetes in Africa (SEMSDA) congress this year, reinforcing our commitment to advancing 
+          care in diabetes and metabolic health. As part of our support, we have proudly sponsored 
+          three expert speakers who will contribute to critical conversations shaping the future of 
+          diabetes management on the continent.
+        </mj-text>
       </mj-column>
+      
     </mj-section>
+    
+  </mj-column>
+</mj-section>
+
 
     <!-- Section 6: ECO 2025 Conference - Two-column layout with logo -->
-    <mj-section background-color="#ffffff" padding="30px">
-      <!-- Gray container for content -->
-      <mj-column background-color="#d9e6f8" padding="0">
-        <!-- Two-column layout with logo and description -->
-        <mj-section padding="0">
-          <!-- Left column: Dark blue header with conference name and logo -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            background-color="#011971"
-            padding="40px"
-          >
-            <mj-text
-              align="center"
-              color="#ffffff"
-              font-family="Arial, sans-serif"
-              font-size="16px"
-              line-height="24px"
-              font-weight="bold"
-              padding="0 0 20px 0"
-            >
-              ECO 2025 | European Congress on Obesity
-            </mj-text>
+<mj-section background-color="#ffffff" padding="20px 25px">
+  <!-- Gray outer column -->
+  <mj-column background-color="#d9e6f8" padding="0">
+    <!-- Inner section for two columns -->
+    <mj-section padding="0">
 
-            <!-- Conference logo image -->
-            <mj-image
-              src="Images/32nd on obesity logo-03.jpg"
-              alt="Logo"
-              width="120px"
-              padding="0"
-              align="center"
-            />
-          </mj-column>
+      <!-- Left column: header and logo -->
+      <mj-column
+        width="40%"
+        vertical-align="middle"
+        background-color="#011971"
+        padding="25px"
+      >
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-family="Arial, sans-serif"
+          font-size="22px"
+          line-height="28px"
+          font-weight="bold"
+          padding-bottom="20px"
+        >
+          ECO 2025 | European Congress on Obesity
+        </mj-text>
 
-          <!-- Right column: Conference details and description -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            padding="30px 20px"
-          >
-            <mj-text
-              align="left"
-              color="#333333"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-              Our colleagues attended ECO 2025 in Spain, joining global leaders to explore cutting-edge data and strategies in obesity prevention and treatment. 
-              The congress highlighted new outcomes data, precision-based approaches to obesity care, and digital tools driving adherence.<br /><br />
-              These global insights are essential as we work to localise innovation and support evidence-based policy shifts in South Africa and the broader region.
-            </mj-text>
-          </mj-column>
-        </mj-section>
+        <!-- Logo image (centered, with optional white stroke) -->
+        <mj-image
+          src="Images/32nd on obesity logo-03.jpg"
+          alt="ECO 2025 Logo"
+          width="200px"
+          border="3px solid #ffffff"
+          align="left"
+        />
       </mj-column>
-    </mj-section>
 
-    <!-- Section 7: FCPSA Conference - Two-column layout with logo -->
-    <mj-section background-color="#ffffff" padding="30px">
-      <!-- Gray container for content -->
-      <mj-column background-color="#fdf2f5" padding="0">
-        <!-- Two-column layout with logo and description -->
-        <mj-section padding="0">
-          <!-- Left column: Dark blue header with conference name and logo -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            background-color="#011971"
-            padding="40px"
-          >
-            <mj-text
-              align="center"
-              color="#ffffff"
-              font-family="Arial, sans-serif"
-              font-size="16px"
-              line-height="24px"
-              font-weight="bold"
-              padding="0 0 20px 0"
-            >
-              FCPSA Conference | A Strategic Lens on Diabetes and Obesity
-            </mj-text>
-
-            <!-- Conference logo image -->
-            <mj-image
-              src="Images/Artboard 1 copy 3.png"
-              alt="Logo"
-              width="120px"
-              padding="0"
-              align="center"
-            />
-          </mj-column>
-
-          <!-- Right column: Conference details and description -->
-          <mj-column
-            width="50%"
-            vertical-align="middle"
-            padding="30px 20px"
-          >
-            <mj-text
-              align="left"
-              color="#333333"
-              font-family="Arial, sans-serif"
-              font-size="14px"
-              line-height="1.6"
-            >
-              Held from 2–4 May in Cape Town, the Faculty of Consulting Physicians of South Africa (FCPSA) Conference featured key sessions on the evolving approach to cardiometabolic care. With over 200 clinicians attending, this platform emphasized the importance of aligning outcomes between patients, clinicians, and funders.<br /><br />
-              <strong>Key insights:</strong><br />
-              • New guidelines advocating waist-to-height ratio over BMI for obesity classification.<br />
-              • STEP trial learnings on semaglutide.<br />
-              • Real-world perspectives on long-term weight management and treatment sustainability.
-            </mj-text>
-          </mj-column>
-        </mj-section>
+      <!-- Right column: description -->
+      <mj-column
+        width="55%"
+        vertical-align="middle"
+        padding="30px 20px"
+      >
+        <mj-text
+          align="left"
+          color="#003878"
+          font-family="Arial, sans-serif"
+          font-size="14px"
+          line-height="1.6"
+        >
+        Our colleagues attended <strong>ECO 2025 in Spain</strong>, joining global leaders to
+        explore cutting-edge data and strategies in <strong>obesity prevention and
+        treatment.</strong> The congress highlighted new outcomes data, precision-based
+        approaches to obesity care, and digital tools driving adherence.<br /><br />
+        These global insights are essential as we work to <strong>localise innovation</strong> 
+        and support <strong>evidence-based policy shifts</strong> in South Africa and the broader region.
+        </mj-text>
       </mj-column>
+
     </mj-section>
+  </mj-column>
+</mj-section>
+
+
+   <mj-section background-color="#ffffff" padding="5px 25px">
+  <!-- Pink-gray container -->
+  <mj-column background-color="#fdf2f5" padding="0">
+    <!-- Inner section: two-column layout -->
+    <mj-section padding="0">
+
+      <!-- Left column: header + logo -->
+      <mj-column
+        width="40%"
+        vertical-align="middle"
+        background-color="#011971"
+        padding="60px"
+      >
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-family="Arial, sans-serif"
+          font-size="22px"
+          line-height="24px"
+          font-weight="bold"
+          padding-bottom="20px"
+        >
+          FCPSA Conference | A Strategic Lens on Diabetes and Obesity
+        </mj-text>
+
+        <!-- Logo image with white stroke -->
+        <mj-image
+          src="Images/Artboard 1 copy 3.png"
+          alt="FCPSA Logo"
+          width="170px"
+          padding="0"
+          align="left"
+          border="3px solid #ffffff"
+        />
+      </mj-column>
+
+      <!-- Right column: description -->
+      <mj-column
+        width="55%"
+        vertical-align="middle"
+        padding="30px 20px"
+      >
+        <mj-text
+          align="left"
+          color="#003878"
+          font-family="Arial, sans-serif"
+          font-size="14px"
+          line-height="1.6"
+        >
+          Held from 2–4 May in Cape Town, the Faculty of Consulting Physicians of South Africa (FCPSA) Conference featured key sessions on the evolving approach to cardiometabolic care. With over 200 clinicians attending, this platform emphasized the importance of aligning outcomes between patients, clinicians, and funders.<br /><br />
+          <strong>Key insights:</strong><br />
+          • New guidelines advocating waist-to-height ratio over BMI for obesity classification.<br />
+          • STEP trial learnings on semaglutide.<br />
+          • Real-world perspectives on long-term weight management and treatment sustainability.<br />
+          <br />
+          <strong>Read the full FCPSA summary.</strong>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+  </mj-column>
+</mj-section>
 
    
     <!-- Section 9: SAAHIP Conference - Two-column layout with image -->
-    <mj-section background-color="#ffffff" padding="30px">
+    <mj-section background-color="#ffffff" padding="10px 25px">
       <!-- Gray container for content -->
       <mj-column background-color="#dfefef" padding="0">
         <!-- Two-column layout with image and description -->
