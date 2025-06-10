@@ -136,10 +136,7 @@
       <td align="left" style="padding: 20px 25px;">
         <img src="Images/BHF 2 magazine.jpg" width="220px" alt="BHF Image" style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 220px; height: auto;" />
       </td>
-      <td style="padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;">
-        <p><strong> Read the BHF <br /> 
-        summary here. </strong></p>
-      </td>
+
     </tr>
   </mj-table>
     </mj-column>
@@ -526,7 +523,226 @@
         </mj-section>
       </mj-column>
     </mj-section>
-    <!-- Section 12: Footer - disclaimer -->
+
+
+   <!-- Section 12: Footer - disclaimer -->
+    <mj-section background-color="#ffffff" padding="1px 35px">
+      <mj-column  vertical-align="middle">
+        <mj-text
+          font-family="Arial, sans-serif"
+          font-size="15px"
+          color="#011971"
+          line-height="1.6"
+        >
+          <strong><h2>Campaigns & Highlights<br/></h2></strong>
+
+          As we build momentum, we have already started activations 
+          and engagements through key campaigns, congresses, and other 
+          strategic touchpoints to increase awareness, activate and empower 
+          patients, deepen audience connection, and leverage innovation to improve outcomes.  <br/><br/>
+
+          <strong><h2>Our Anti-Counterfeit Campaign is LIVE!<br/></h2></strong>
+         
+          We’re thrilled to announce that our **Anti-Counterfeit Campaign** officially 
+          launched last week! Over the next three months, we will be sharing bi-weekly 
+          updates to keep everyone informed and engaged. <br/><br/>
+          
+        </mj-text>
+      </mj-column>
+      </mj-column>
+    </mj-section>
+<!-- Section 13: footer -->
+<mj-section background-color="#ffffff" padding="0px 25px 0px 25px">
+  <mj-section >
+
+    <!-- Left column: header + logo -->
+    <mj-column
+      width="40%"
+      vertical-align="middle"
+      background-color=""
+      padding="40px 20px"
+    >
+
+
+      <!-- Logo image with white stroke -->
+      <mj-image
+        src="Images/Counterfeit.png"
+        alt="SAAHIP image"
+        width="1080px"
+        align="left"
+      />
+    </mj-column>
+
+    <!-- Right column: Conference details and description -->
+    <mj-column
+      width="55%"
+      vertical-align="middle"
+      background-color="#ffffff"
+      padding="10px 20px"
+    >
+      <mj-text
+        align="left"
+        color="#003878"
+        font-family="Arial, sans-serif"
+        font-size="14px"
+        line-height="1.6"
+      >
+        <strong>Check out our vibrant campaign cover image below and help us spread the word by sharing the links.</strong>
+
+        <br /><br />
+            </mj-text>
+
+            <mj-text
+             background-color="white"
+             padding="10px 1px" 
+             border="1px solid #011971"
+             border-radius="15px" 
+             color="#011971"
+            >
+          
+          <p>Please make sure this links to:<br/></p> <strong> Fake prescription medicines can carry real health risks | 
+         Fake prescription medicine from unregulated online sellers can have potentially dangerous health 
+          consequences. Report Suspected Counterfeit Products... | By Novo Nordisk | Facebook</strong>
+        </mj-text>
+    </mj-column>
+    <mj-column
+      width="100%"
+      vertical-align="middle"
+      padding="20px 20px">
+      <mj-text
+        align="left"
+        color="#003878"
+        font-family="Arial, sans-serif"
+        font-size="15px"
+        line-height="1.6"> Let’s unite in our efforts to protect patients and promote the importance of using only SAHPRA-approved medications. Thank you for your support! Together, we can make a powerful impact!
+
+  </mj-section>
+</mj-section>
+
+
+    <!-- Section 14: GGPF Conference - Two-column layout with image -->
+<mj-section background-color="#ffffff" padding="0px 25px">
+  <mj-section>
+
+    <!-- Left column: header + logo -->
+    <mj-column
+      vertical-align="middle"
+      padding="20px 20px"
+    >
+   <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
+    <tr style="background-color: rgba(3, 101, 216, 0.6);">
+      <td align="left" style="padding: 20px 25px;" width="50%">
+      <h1 style="color: #ffffff; line-height: 1.2;">South Africa Joins the Healthy <br/>Cycling Challenge</h1>
+        <img src="Images\picture 11.png" width="220px" alt="BHF Image" style="display: block; width: 220px; height: auto;" />
+      </td>
+      <td style=" padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;" width="50%">
+        <p><strong> We’re excited to announce that South Africa has joined the **Healthy Cycling Challenge** as part of our momentum leading up to World Diabetes Day (WDD)! As part of this initiative, three billboards have been installed in Pretoria, Johannesburg, and Durban to promote the benefits of cycling for health and the environment. </strong></p>
+      </td>
+    </tr>
+       <tr style="background-color: rgba(3, 101, 216, 0.6);">
+      <td align="left" style="padding: 0px 25px;" width="50%">
+
+      <p style="
+        align: left;
+        color:white;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.6;">Please make sure this links to: https://x.com/novonordisklive/status/<br/>1930577207224840276?s=48</p>
+
+      </td>
+      <td style="padding: 35px 29px 15px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;" width="50%">
+      <img src="Images\Screenshot 2025-06-10 at 14.52.02.png" width="220px" alt="BHF Image" style="display: block; width: 220px; height: auto;" />
+      
+      </td>
+    </tr>
+  </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- Section 13: Footer - disclaimer -->
+    <mj-section background-color="#ffffff" padding="30px 35px">
+      <mj-column  vertical-align="middle">
+        <mj-text
+          font-family="Arial, sans-serif"
+          font-size="15px"
+          color="#011971"
+          line-height="1.6"
+        >
+        <h3>Internal & Congress Updates<br/></h3>
+          <strong>Childhood Obesity Prevention Initiative (COPI): Exciting Updates!<br/></strong>
+         
+ The momentum from Activation Week is still resonating with us, and we’re thrilled to bring you some fantastic news regarding COPI. Let's start by experiencing the energy of the World Obesity Day Summit through this short video. 
+ 
+We are pleased to announce that WITS University has joined our efforts as our local evaluation partner to assess our interventions' effectiveness, and the Gauteng De-partment of Health (GDOH) has officially signed on through an MoU which solidi-fies our partnership and paves the way for further impactful collaborations within Cities for Better Health.
+ 
+These partnerships mark significant steps forward in our mission to work in cities to combat childhood obesity and promote healthier communities. <br/><br/>
+Thank you for your ongoing commitment to creating a healthier future for our children!
+        </mj-text>
+
+      </mj-column>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 14: GGPF Conference - Two-column layout with image -->
+<mj-section background-color="#ffffff" padding="0px 25px">
+  <mj-section >
+
+    <!-- Left column: header + logo -->
+    <mj-column background-color= "rgba(3, 101, 216, 0.6)"
+      vertical-align="middle"
+      padding="0px 20px 10px 20px"
+    >
+   <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
+    <tr >
+      <td align="left" style="padding: 20px 25px;" width="50%">
+      <h1 style="color: #ffffff; line-height: 1.2;">
+Celebrating Our Comrades Marathon Heroes!
+</h1>
+        <img src="Images\Comrades.png" width="220px" alt="BHF Image" style="display: block; width: 220px; height: auto;" />
+      </td>
+      <td style=" padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;" width="50%">
+        <p><strong>A huge congratulations to all our colleagues and partners who took part in the 2025 Comrades Marathon – one of the most iconic 
+        ultramarathons in the world. Your dedication, perseverance, and team spirit exemplify the very values we hold dear: pushing boundaries, 
+        showing up with purpose, and going the distance for better health and well-being. Whether you ran, supported, or cheered from the sidelines – thank you for representing with pride!
+Here’s to many more milestones, both on and off the road.
+        </mj-text>
+      </td>
+  </mj-table>
+
+  <mj-text
+        align="left"
+        color="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="15px"
+        line-height="1.6">the distance for better health and well-being. Whether you ran, supported, or cheered from the sidelines – thank you for representing with pride!
+Here’s to many more milestones, both on and off the road.
+  </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Section 13: Footer - disclaimer -->
+    <mj-section background-color="#ffffff" padding="30px 35px">
+      <mj-column  vertical-align="middle">
+        <mj-text
+          font-family="Arial, sans-serif"
+          font-size="15px"
+          color="#011971"
+          line-height="1.6"
+        >
+        <h3>Internal & Congress Updates<br/></h3>
+          <strong>Childhood Obesity Prevention Initiative (COPI): Exciting Updates!<br/></strong>
+         
+ The momentum from Activation Week is still resonating with us, and we’re thrilled to bring you some fantastic news regarding COPI. Let's start by experiencing the energy of the World Obesity Day Summit through this short video. 
+ 
+We are pleased to announce that WITS University has joined our efforts as our local evaluation partner to assess our interventions' effectiveness, and the Gauteng De-partment of Health (GDOH) has officially signed on through an MoU which solidi-fies our partnership and paves the way for further impactful collaborations within Cities for Better Health.
+ 
+These partnerships mark significant steps forward in our mission to work in cities to combat childhood obesity and promote healthier communities. <br/><br/>
+Thank you for your ongoing commitment to creating a healthier future for our children!
+        </mj-text>
+
+      </mj-column>
+      </mj-column>
+    </mj-section>
+
+ <!-- Section 13: Footer - disclaimer -->
     <mj-section background-color="#ffffff" padding="30px 35px">
       <mj-column  vertical-align="middle">
         <mj-text
@@ -547,9 +763,12 @@
           </strong>
           
         </mj-text>
+
+        
       </mj-column>
       </mj-column>
     </mj-section>
+
     <!-- Section 12: Footer - Company information and logo -->
     <mj-section background-color="#ffffff" padding="180px 20px 40px 20px">
       <mj-column width="70%" vertical-align="middle">
