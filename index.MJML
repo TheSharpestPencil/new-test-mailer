@@ -10,7 +10,7 @@
 
     <!-- Default styles applied globally -->
     <mj-attributes>
-      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif" padding="0px"></mj-all>
+      <mj-all font-family="Helvetica, Arial, sans-serif" padding="0px"></mj-all>
       <mj-text font-weight="400" font-size="14px" color="#000000" line-height="21px"></mj-text>
     </mj-attributes>
   </mj-head>
@@ -167,6 +167,7 @@
   </mj-section>
 </mj-wrapper>
 
+<!-- Section 5: SEMSDA Conference - Two-column layout with heading and description -->
 
    <mj-section background-color="#ffffff" padding="3px 25px">
   <!-- Light gray container for content -->
@@ -189,7 +190,7 @@
           font-size="22px"
           line-height="28px"
         >
-          <strong> Showcasing Leadership at SEMSD </strong>
+          <strong> Showcasing Leadership at SEMSDA </strong>
         </mj-text>
     
       </mj-column>
@@ -340,11 +341,14 @@
            
            </mj-text>
 
-            <mj-text
-             style="background-color:#ffffff;"
+            <mj-button
+             href="https://novonordisk.sharepoint.com/:w:/s/MarketAccessPublicAffairs/Ec-yGOO95pREtVnAoF39eIgB2gnpaNJzBCZv4tsfKyiXMQ"
+            padding="10px 20px"
+            border-radius="15px"
+            background-color="#0365d8"
             >
-          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the full FCPSA summary.</strong>
-        </mj-text>
+          <strong style="padding:10px 10px; color:#ffffff">Read the full FCPSA summary.</strong>
+        </mj-button>
       </mj-column>
 
     </mj-section>
@@ -409,12 +413,15 @@
         <br /><br />
             </mj-text>
 
-            <mj-text
-             style="background-color:#ffffff;"
+            <mj-button
+            href="https://novonordisk.sharepoint.com/:b:/s/MarketAccessPublicAffairs/EQO7a1d2f3ZPj4c6k0g5x8cB0B9q2v1l6sBlFKmicP3qw"
+            padding="10px 20px"
+            border-radius="15px"
+            background-color="#0365d8"
             >
-          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the SAAHIP report here.</strong>
-        </mj-text>
-    </mj-column>
+              <strong style="padding:10px 10px; color:#ffffff">Read the SAAHIP report here.</strong>
+            </mj-button>
+        </mj-column>
 
   </mj-section>
 </mj-section>
@@ -476,11 +483,13 @@
        <br /><br />
             </mj-text>
 
-            <mj-text
-             style="background-color:#ffffff;"
+            <mj-button
+              href="https://novonordisk.sharepoint.com/:b:/s/MarketAccessPublicAffairs/EQN-2PpSdyZCkAp45nK83c0B0aqAm2lvl6sBlFKmicP3qw"
+              border-radius="15px"
+              background-color="#0365d8"
             >
-          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">View the GGPF highlights here.</strong>
-        </mj-text>
+              <strong style="padding:10px 10px; color:#ffffff">View the GGPF highlights here.</strong>
+            </mj-button>
           </mj-column>
         </mj-section>
       </mj-column>
@@ -541,10 +550,11 @@
 
             <mj-button
             href="https://novonordisk.sharepoint.com/:w:/s/MarketAccessPublicAffairs/EdOJTeKYZwRGt_UuDvi8cF4BAh8nfYqgk5enKc_D2PA4Gg"
-             background-color="#003878"
+              border-radius="15px"
+              background-color="#0365d8"
              padding="10px 1px 20px 0px"
             >
-          <strong style=" padding:10px 10px 10px; border-radius:15px; color:#ffffff">Read the full report here.</strong>
+              <strong style="padding:10px 10px 10px; border-radius:15px; color:#ffffff">Read the full report here.</strong>
         </mj-button>
         </mj-section>
       </mj-column>
@@ -625,7 +635,7 @@
       font-family="Arial, sans-serif"
       font-size="14px"
       inner-padding="10px 25px"
-      border-radius="4px"
+       border-radius="15px"
       align="left"
     >
       Click here to watch the video
@@ -658,13 +668,15 @@
       padding="20px 0px"
     >
    <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
-    <tr style="background-color: rgba(3, 101, 216, 0.6);">
+    <tr style="background-color:#001965;">
       <td align="left" style="padding: 20px 25px;" width="50%">
       <h1 style="color: #ffffff; line-height: 1.2;">South Africa Joins the Healthy Cycling Challenge</h1>
         <img src="Images\picture 11.png" width="220px" alt="BHF Image" style="display: block; width: 320px; height: auto;" />
       </td>
       <td style=" padding: 1px 46px 1px 29px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.3;" width="50%">
-        <p><strong> We’re excited to announce that South Africa has joined the **Healthy Cycling Challenge** as part of our momentum leading up to World Diabetes Day (WDD)! As part of this initiative, three billboards have been installed in Pretoria, Johannesburg, and Durban to promote the benefits of cycling for health and the environment. </strong></p>
+        <p><strong> We’re excited to announce that South Africa has joined the **Healthy Cycling Challenge** as part of our momentum leading up to
+         World Diabetes Day (WDD)! As part of this initiative, three billboards have been installed in Pretoria, Johannesburg, and Durban to promote 
+         the benefits of cycling for health and the environment. </strong></p>
       </td>
     </tr>
   </mj-table>
@@ -692,7 +704,7 @@
       color="#ffffff"
       font-family="Arial, sans-serif"
       font-size="14px"
-      border-radius="4px"
+       border-radius="15px"
 
       align="center"
     >
