@@ -18,62 +18,87 @@
   <!-- Main body of the email with light blue background -->
   <mj-body background-color="#dae6f9" width="800px">
 
-    <!-- Section 1: Header Logo - White background with company logo aligned right -->
-    <mj-section padding-top="40px" padding-left="170px" padding-bottom="20px" background-color="#FFFFFF">
-      <mj-column width="570px">
-        <mj-image src="Images\Novo nordisk logo.svg" width="100px" align="right" alt="nordisk logo" border="none" padding-left="220px"></mj-image>
-      </mj-column>
-    </mj-section>
+<!-- Section 1: Header Logo - White background with company logo aligned right -->
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#FFFFFF">
+  <mj-column width="55%" background-color="rgba(1, 25, 113, 0.2)">
+<mj-spacer height="200px" />
 
-<!-- Section 2: Hero Banner - Full-width background image with blue shape behind text -->
+  </mj-column>
+
+    <mj-column width="40%">
+    <mj-image 
+      src="Images/Novo nordisk logo.svg" 
+      width="100px" 
+      align="right" 
+      alt="Novo Nordisk Logo" 
+      padding="50px 5px"
+    />
+  </mj-column>
+
+</mj-section>
+
+<!-- Section 2: Hero Banner - Full-width image background with blue text box -->
 <mj-section 
   background-url="Images/Header image-02.jpg" 
   background-size="cover" 
   background-repeat="no-repeat" 
+  background-color="#003878" 
   padding="0px"
 >
-  <mj-column>
+  <mj-column  width="55%" background-color="rgba(1, 25, 113, 0.2)" padding="40px 30px">
 
-    <!-- Blue background shape as the text box -->
-    <mj-text 
-      padding="60px 30px" 
-      align="left" 
-      font-size="22px" 
-      font-family="Arial" 
-      color="#ffffff" 
-      background-color="#003878" 
-      border-radius="8px"
+    <mj-text  padding="60px 30px" align="left" font-size="22px" font-family="Arial, sans-serif"
+      color="#ffffff"
+      line-height="1.4"
     >
-      NOVO NORDISK ®<br/><br/>
-      <strong style="font-size: 70px;">NEWSLETTER</strong><br/><br/>
-      <span style="font-size: 16px; font-style: italic;">MAY 2025 | issue: 1</span>
+      NOVO NORDISK ®<br/>
+      <span  style="font-size: 45px; font-weight: bold;">NEWSLETTER</span><br/>
+      <span style="font-size: 16px; font-style: italic;">MAY 2025 | Issue: 1</span>
     </mj-text>
+  </mj-column>
+
+  <mj-column  width="40%">
+    <mj-img src="Images/Blue shape.svg"/>
 
   </mj-column>
+
 </mj-section>
 
+<!-- Section 3: Introduction - Dark blue background with welcome message -->
+<mj-wrapper background-color="#FFFFFF" padding="0px 3%">
+  <mj-section background-color="#003366" padding="20px">
+    <mj-column>
+      <mj-text 
+        align="left" 
+        font-family="Arial, sans-serif" 
+        font-size="20px" 
+        color="#ffffff" 
+        font-weight="bold" 
+        padding="25px 0px"
+      >
+        Dear colleagues,
+      </mj-text>
+      <mj-text 
+        align="left" 
+        font-family="Arial, sans-serif" 
+        font-size="14px" 
+        color="#ffffff" 
+        line-height="1.6"
+      >
+        As part of our continued commitment to driving better health outcomes and shaping the
+        future of healthcare across public and private sectors, various teams have represented
+        the organization at several high-impact conferences. These platforms have not only showcased
+        our leadership in key therapeutic areas — obesity, diabetes, and rare diseases — but also
+        helped us engage with stakeholders, drive important policy conversations, and reinforce
+        our purpose of improving lives.
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
 
-
-    <!-- Section 3: Introduction - Dark blue background with welcome message -->
-    <mj-wrapper background-color="white" padding-top="30px" padding-left="3%" padding-right="3%">
-    <mj-section background-color="#003366"  padding="20px ">
-      <mj-column>
-        <mj-text align="left" font-family="Arial, sans-serif" color="#ffffff" padding="10px 25px">
-          <h3 style="margin: 0; font-size: 20px;">Dear colleagues,</h3>
-          <p style="font-size: 14px; line-height: 1.6; margin-top: 10px;">
-            As part of our continued commitment to driving better health outcomes and shaping the
-            future of healthcare across public and private sectors, various teams have represented
-            the organization at several high-impact conferences. These platforms have not only showcased
-            our leadership in key therapeutic areas i.e. obesity, diabetes and rare diseases but also
-            helped us to engage with stakeholders, drive important policy conversations, and reinforce
-            our purpose of improving lives.<br />
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    </mj-wrapper>
 
     <!-- Section 4: BHF Conference - Two-column layout with colored backgrounds -->
+
 <mj-wrapper background-color="white" padding="25px">
   <mj-section background-color="#dae6f9" padding="15px 15px">
     
@@ -131,14 +156,12 @@
         we supported awareness efforts further by distributing desk drops highlighting South African 
         obesity statistics, helping to engage stakeholders and inform policy makers.
       </mj-text>
-  <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
-    <tr style="background-color: rgba(3, 101, 216, 0.6);">
-      <td align="left" style="padding: 20px 25px;">
-        <img src="Images/BHF 2 magazine.jpg" width="220px" alt="BHF Image" style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 220px; height: auto;" />
-      </td>
+      <mj-text padding="20px 0 0px 0" align="center">
 
-    </tr>
-  </mj-table>
+        <img src="Images/BHF 2 magazine.jpg" alt="BHF Image" style="display: block; border: 4px solid #ffffff; border-radius: 5px; width: 320px; height: auto;" />
+      </mj-text>
+
+
     </mj-column>
 
   </mj-section>
@@ -150,7 +173,7 @@
   <mj-column background-color="#dfefef" padding="0">
     
     <!-- Two-column layout for conference information -->
-    <mj-section padding="0">
+    <mj-section>
       
       <!-- Left column with heading and two images -->
       <mj-column
@@ -272,7 +295,7 @@
         width="40%"
         vertical-align="middle"
         background-color="#011971"
-        padding="80px 20px"
+        padding="65px 20px"
       >
         <mj-text
           align="left"
@@ -281,7 +304,7 @@
           font-size="22px"
           line-height="24px"
           font-weight="bold"
-          padding-bottom="20px"
+          padding-bottom="30px"
           padding-left="10px"
         >
           FCPSA Conference |<br/> A Strategic Lens on Diabetes and Obesity
@@ -474,8 +497,8 @@
             vertical-align="middle"
             padding="20px"
           >
-<mj-section padding="15px 3px">
-  <mj-column>
+<mj-section padding="5px 3px">
+  <mj-column padding-bottom="20px">
     <mj-table>
       <tr>
         <!-- Image on the left -->
@@ -518,8 +541,9 @@
 
             <mj-text
              style="background-color:#ffffff;"
+             padding="10px 1px 20px 0px"
             >
-          <strong style="background-color:#0365d8; padding:10px 10px; border-radius:15px; color:#ffffff">Read the full report here.</strong>
+          <strong style="background-color:#0365d8; padding:10px 10px 10px; border-radius:15px; color:#ffffff">Read the full report here.</strong>
         </mj-text>
         </mj-section>
       </mj-column>
@@ -593,18 +617,18 @@
         <br /><br />
             </mj-text>
 
-            <mj-text
-             background-color="white"
-             padding="10px 1px" 
-             border="1px solid #011971"
-             border-radius="15px" 
-             color="#011971"
-            >
-          
-          <p>Please make sure this links to:<br/></p> <strong> Fake prescription medicines can carry real health risks | 
-         Fake prescription medicine from unregulated online sellers can have potentially dangerous health 
-          consequences. Report Suspected Counterfeit Products... | By Novo Nordisk | Facebook</strong>
-        </mj-text>
+            <mj-button
+      href="https://www.facebook.com/novonordisk/videos/24700547429545227/?rdid=tlo1Mx9VUFvbyxDA" 
+      background-color="#003878"
+      color="#ffffff"
+      font-family="Arial, sans-serif"
+      font-size="14px"
+      inner-padding="10px 25px"
+      border-radius="4px"
+      align="left"
+    >
+      Click here to watch the video
+    </mj-button>
     </mj-column>
     <mj-column
       width="100%"
@@ -628,7 +652,7 @@
     <!-- Left column: header + logo -->
     <mj-column
       vertical-align="middle"
-      padding="20px 20px"
+      padding="20px 0px"
     >
    <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
     <tr style="background-color: rgba(3, 101, 216, 0.6);">
@@ -640,25 +664,50 @@
         <p><strong> We’re excited to announce that South Africa has joined the **Healthy Cycling Challenge** as part of our momentum leading up to World Diabetes Day (WDD)! As part of this initiative, three billboards have been installed in Pretoria, Johannesburg, and Durban to promote the benefits of cycling for health and the environment. </strong></p>
       </td>
     </tr>
-       <tr style="background-color: rgba(3, 101, 216, 0.6);">
-      <td align="left" style="padding: 0px 25px;" width="50%">
-
-      <p style="
-        align: left;
-        color:white;
-        font-family: Arial, sans-serif;
-        font-size: 15px;
-        line-height: 1.6;">Please make sure this links to: https://x.com/novonordisklive/status/<br/>1930577207224840276?s=48</p>
-
-      </td>
-      <td style="padding: 35px 29px 15px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;" width="50%">
-      <img src="Images\Screenshot 2025-06-10 at 14.52.02.png" width="220px" alt="BHF Image" style="display: block; width: 220px; height: auto;" />
-      
-      </td>
-    </tr>
   </mj-table>
       </mj-column>
     </mj-section>
+
+    <mj-section background-color="#dfefef" padding="0px 25px">
+  <!-- Left Column: Button -->
+  <mj-column vertical-align="middle" width="40%" padding="90px 0 0 59px">
+
+    <mj-text
+      align="left"
+      color="#003878"
+      font-family="Arial, sans-serif"
+      font-size="14px"
+      line-height="1.6"
+       padding="0 0 20px 20px"
+      >
+      For more details on the campaign, visit our social<br/> media link:
+    </mj-text>
+
+    <mj-button
+      href="https://x.com/novonordisklive/status/1930577207224840276?s=48"
+      background-color="#003878"
+      color="#ffffff"
+      font-family="Arial, sans-serif"
+      font-size="14px"
+      border-radius="4px"
+
+      align="center"
+    >
+      Click here to see post
+    </mj-button>
+  </mj-column>
+
+  <!-- Right Column: Image -->
+  <mj-column width="60%">
+    <mj-image
+      src="Images/Screenshot 2025-06-10 at 14.52.02.png"
+      width="220px"
+      alt="BHF Image"
+      padding="35px 0 15px 0"
+    />
+  </mj-column>
+</mj-section>
+
     <!-- Section 13: Footer - disclaimer -->
     <mj-section background-color="#ffffff" padding="30px 35px">
       <mj-column  vertical-align="middle">
@@ -683,24 +732,24 @@ Thank you for your ongoing commitment to creating a healthier future for our chi
       </mj-column>
     </mj-section>
 
-    <!-- Section 14: GGPF Conference - Two-column layout with image -->
+    <!-- Section 14: Celebrating our comrades -->
 <mj-section background-color="#ffffff" padding="0px 25px">
   <mj-section >
 
-    <!-- Left column: header + logo -->
+    <!-- Left column: image + text -->
     <mj-column background-color= "rgba(3, 101, 216, 0.6)"
       vertical-align="middle"
       padding="0px 20px 10px 20px"
     >
    <mj-table align="center" padding-top="20px" padding="0px" cellpadding="10px" cellspacing="0" width="100%">
     <tr >
-      <td align="left" style="padding: 20px 25px;" width="50%">
+      <td align="left" style="padding: 20px 25px;" width="53%">
       <h1 style="color: #ffffff; line-height: 1.2;">
-Celebrating Our Comrades Marathon Heroes!
-</h1>
-        <img src="Images\Comrades.png" width="220px" alt="BHF Image" style="display: block; width: 220px; height: auto;" />
+        Celebrating Our Comrades Marathon Heroes! </h1>
+
+        <img src="Images\Comrades.png" alt="BHF Image" style="display: block; width: 480px; height: auto;" />
       </td>
-      <td style=" padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.2;" width="50%">
+      <td style=" padding: 1px 29px 1px 1px; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.4;" width="50%">
         <p><strong>A huge congratulations to all our colleagues and partners who took part in the 2025 Comrades Marathon – one of the most iconic 
         ultramarathons in the world. Your dedication, perseverance, and team spirit exemplify the very values we hold dear: pushing boundaries, 
         showing up with purpose, and going the distance for better health and well-being. Whether you ran, supported, or cheered from the sidelines – thank you for representing with pride!
@@ -714,37 +763,18 @@ Here’s to many more milestones, both on and off the road.
         color="#ffffff"
         font-family="Arial, sans-serif"
         font-size="15px"
-        line-height="1.6">the distance for better health and well-being. Whether you ran, supported, or cheered from the sidelines – thank you for representing with pride!
-Here’s to many more milestones, both on and off the road.
+        line-height="1.4"
+        padding="20px 25px"
+      >the distance for better health and well-being. Whether you ran, supported, or cheered from
+      the sidelines – thank you for representing with pride! Here’s to many more milestones,
+      both on and off the road.
   </mj-text>
       </mj-column>
     </mj-section>
-    <!-- Section 13: Footer - disclaimer -->
-    <mj-section background-color="#ffffff" padding="30px 35px">
-      <mj-column  vertical-align="middle">
-        <mj-text
-          font-family="Arial, sans-serif"
-          font-size="15px"
-          color="#011971"
-          line-height="1.6"
-        >
-        <h3>Internal & Congress Updates<br/></h3>
-          <strong>Childhood Obesity Prevention Initiative (COPI): Exciting Updates!<br/></strong>
-         
- The momentum from Activation Week is still resonating with us, and we’re thrilled to bring you some fantastic news regarding COPI. Let's start by experiencing the energy of the World Obesity Day Summit through this short video. 
- 
-We are pleased to announce that WITS University has joined our efforts as our local evaluation partner to assess our interventions' effectiveness, and the Gauteng De-partment of Health (GDOH) has officially signed on through an MoU which solidi-fies our partnership and paves the way for further impactful collaborations within Cities for Better Health.
- 
-These partnerships mark significant steps forward in our mission to work in cities to combat childhood obesity and promote healthier communities. <br/><br/>
-Thank you for your ongoing commitment to creating a healthier future for our children!
-        </mj-text>
 
-      </mj-column>
-      </mj-column>
-    </mj-section>
 
- <!-- Section 13: Footer - disclaimer -->
-    <mj-section background-color="#ffffff" padding="30px 35px">
+ <!-- Section 15: Footer - disclaimer -->
+    <mj-section background-color="#ffffff" padding="30px 10px">
       <mj-column  vertical-align="middle">
         <mj-text
           font-family="Arial, sans-serif"
@@ -771,6 +801,7 @@ Thank you for your ongoing commitment to creating a healthier future for our chi
     </mj-section>
 
     <!-- Section 12: Footer - Company information and logo -->
+
     <mj-section background-color="#ffffff" padding="180px 20px 40px 20px">
       <mj-column width="70%" vertical-align="middle">
         <mj-text
