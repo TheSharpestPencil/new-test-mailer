@@ -189,7 +189,7 @@ As we build momentum, we have already started activations and engagements throug
     <mj-section padding="0">
 
 
-  <mj-column align="center" vertical-align="middle" padding="30px 25px">
+  <mj-column align="center" vertical-align="middle" padding="0px 25px">
 
 
   <mj-text
@@ -215,7 +215,7 @@ As we build momentum, we have already started activations and engagements throug
             background-color="#dfefef"
             border="5px solid #0365d8"
             >
-              <strong style="padding:10px 10px; color:#0365d8">Watch video here.</strong>
+              <strong style="padding:10px 10px 0px 10px; color:#0365d8">Watch video here.</strong>
             </mj-button>
 
   </mj-column>
@@ -224,8 +224,8 @@ As we build momentum, we have already started activations and engagements throug
 </mj-section>
 
 
-<mj-section background-color="#ffffff" padding="0px 25px">
-  <mj-column align="center" vertical-align="middle" padding="0px 0px 20px" width="55%">
+<mj-section background-color="#ffffff" padding="0px 13px">
+  <mj-column align="center" vertical-align="middle" padding="0px 0px 20px 0px" width="55%">
 
 
 
@@ -281,13 +281,11 @@ As we build momentum, we have already started activations and engagements throug
           line-height="1.6"
         >
           <span style="font-size:25px;"><strong>Congress Updates</strong></span><br/><br/>
-          We’re excited to share that our <strong>Anti-Counterfeit Campaign</strong> officially launched last week! This initiative is crucial for raising awareness about counterfeit products in our industry, and we want you to be a part of it.<br/><br/>
-          Over the next three months, we will be sharing bi-weekly updates to keep everyone informed and engaged. Check out our vibrant campaign cover image below and help us spread the word by sharing the campaign links with your colleagues and networks.<br/><br/>
-          Let’s unite in this effort to ensure product integrity and safety! Stay tuned for more updates!
+         As part of our continued commitment to driving better health outcomes and shaping the future of healthcare across public and private sectors, various teams have represented the organization at several high-impact conferences. These platforms have not only showcased our leadership in key therapeutic areas i.e. obesity, diabetes and rare diseases but also helped us to engage with stakeholders, drive important policy conversations, and reinforce our purpose of improving lives. 
         </mj-text>
 
         <mj-button
-          href="hhttps://novonordisk.sharepoint.com/:v:/s/CBH-ChildhoodObesityPreventionInitiative/EWeDHWK-nFNFrV1u_Sy09bwBIcGuy6sw9sr55-lFgiKcug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1TTLxi"
+          href="https://novonordisk.sharepoint.com/:f:/s/MarketAccessPublicAffairs/ErEDHk1YOkxHjtAxRzJ1jnkBusfeh7bFQQYd8p4EeHHibg?e=RJl0aE"
           padding="20px 0px"
           border-radius="55px"
           border="5px solid #0365d8"
@@ -298,7 +296,7 @@ As we build momentum, we have already started activations and engagements throug
           inner-padding="10px 20px"
           align="left"
         >
-          <strong>Read the report here.</strong>
+          <strong>Read more.</strong>
         </mj-button>
       </mj-column>
 
@@ -312,7 +310,7 @@ As we build momentum, we have already started activations and engagements throug
 
 
  <!-- Section 15: Footer - disclaimer -->
-    <mj-section background-color="#ffffff" padding="30px 25px">
+    <mj-section background-color="#ffffff" padding="30px 5px">
       <mj-column  vertical-align="middle">
         <mj-text
           font-family="Arial, sans-serif"
@@ -326,7 +324,7 @@ As we build momentum, we have already started activations and engagements throug
          information and should <strong>not be shared, distributed, or forwarded externally</strong> under any circumstances.<br/>
 
                   <br/> <strong>A Friendly Reminder on Internal Communications<br/></strong>
-        To help us streamline messaging, reduce duplication, and ensure a consistent voice across the business, all company-wide or business-wide communications should be routed through the Communications team using nnsacomms@novonordisk.com. We’ll make sure they’re reviewed and distributed from the appropriate mailbox, following the correct process. Thanks for helping us keep communication purposeful and aligned!
+        To help us streamline messaging, reduce duplication, and ensure a consistent voice across the business, all company-wide or business-wide communications should be routed through the Communications team using <span style="text-decoration:underline; font-weight:bold;"> nnsacomms@novonordisk.com</span>. We’ll make sure they’re reviewed and distributed from the appropriate mailbox, following the correct process. Thanks for helping us keep communication purposeful and aligned!
 
         </mj-text>
       </mj-column>
