@@ -39,7 +39,7 @@
 
 <!-- Section 2: Hero Banner - Full-width image background with blue text box -->
 <mj-section 
-  background-url="Images/Header image-02.jpg" 
+  background-url="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/main/Images/Header%20image-02.jpg" 
   background-size="cover" 
   background-repeat="no-repeat" 
   background-color="#003878" 
@@ -101,13 +101,13 @@
 
 <mj-section background-color="#ffffff" padding="0px 25px">
   <!-- Two-column layout inside section -->
-  <mj-column background-color="rgba(63,156,53,0.7)">
+  <mj-column background-color="#78ba71">
     <mj-group>
 
       <!-- Left Column: Image -->
       <mj-column align="center" vertical-align="middle" padding="0px 5px" width="35%">
         <mj-image 
-          src="Images/Counterfeit.png" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/main/Images/Counterfeit.png" 
           alt="Comrades Marathon Image" 
           padding="0px 5px 5px 5px"
           align="center"
@@ -142,7 +142,7 @@
           padding="10px 0px 0px 0px"
           border-radius="55px"
           border="5px solid #ffffff"
-          background-color="rgba(63,156,53,0.5)"
+          background-color="#78ba71"
           align="left"
         >
           <span style="color:#ffffff; font-weight:bold;">Campaign link</span>
@@ -209,7 +209,7 @@ For more details on the campaign, visit our social media link:
         padding="0px 25px"
       >
     <mj-image 
-      src="Images\IMG-20250613-WA0002.jpg" 
+      src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/IMG-20250613-WA0002.jpg" 
       alt="Cycling Challenge Image" 
       border="5px solid #005ad2"
       padding="10px 0px 2px 0px"
@@ -258,14 +258,14 @@ For more details on the campaign, visit our social media link:
       <!-- Left Column: Image -->
       <mj-column align="center" vertical-align="middle" padding="0px 0px" width="40%">
         <mj-image 
-          src="Images\Wegovy bootcamp 2.jpg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Wegovy%20bootcamp%202.jpg" 
           alt="Comrades Marathon Image" 
           padding="0px 0px 0px 0px"
           align="center"
           border="4px solid #eea7bf"
         />
         <mj-image 
-          src="Images\Wegovy icons.svg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/f0db79a4cc1bc7be7dad96a5f1478d9f453540d3/Images/Wegovy%20icons.svg" 
           alt="icons" 
        padding="10px 0px 10px 0px"
           align="center"
@@ -273,7 +273,7 @@ For more details on the campaign, visit our social media link:
         />
 
                 <mj-image 
-          src="Images\Wegovy bootcamp.jpg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Wegovy%20bootcamp.jpg" 
           alt="Comrades Marathon Image" 
           padding="0px 0px 0px 0px"
            border="4px solid #eea7bf"
@@ -356,7 +356,7 @@ For more details on the campaign, visit our social media link:
         padding="20px 1px 20px 20px"
       >
            <mj-image 
-          src="Images\Novo Health 2.jpg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Novo%20Health%202.jpg" 
           alt="Comrades Marathon Image" 
           padding="0px 5px 15px 5px"
           align="center"
@@ -364,7 +364,7 @@ For more details on the campaign, visit our social media link:
         />
 
                 <mj-image 
-          src="Images\Novo Health.jpg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Novo%20Health.jpg" 
           alt="Comrades Marathon Image" 
           padding="0px 5px 0px 5px"
            border="4px solid #ffffff"
@@ -449,7 +449,7 @@ For more details on the campaign, visit our social media link:
 <mj-section background-color="#ffffff" padding="0px 25px 20px 25px">
   <mj-column>
     <mj-image 
-      src="Images\Section image_2.png" 
+      src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Section%20image_2.png" 
       alt="Comrades Marathon Image" 
       padding="0px 0px 0px 0px"
     />
