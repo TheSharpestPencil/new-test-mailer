@@ -101,7 +101,7 @@
 
 <mj-section background-color="#ffffff" padding="0px 25px">
   <!-- Two-column layout inside section -->
-  <mj-column background-color="#3f9c35">
+  <mj-column background-color="rgba(63,156,53,0.7)">
     <mj-group>
 
       <!-- Left Column: Image -->
@@ -142,7 +142,7 @@
           padding="10px 0px 0px 0px"
           border-radius="55px"
           border="5px solid #ffffff"
-          background-color="#3f9c35"
+          background-color="rgba(63,156,53,0.5)"
           align="left"
         >
           <span style="color:#ffffff; font-weight:bold;">Campaign link</span>
