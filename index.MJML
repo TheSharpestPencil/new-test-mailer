@@ -27,7 +27,7 @@
 
     <mj-column width="40%">
     <mj-image 
-      src="Images/Novo nordisk logo.svg" 
+      src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/81bbe3bac4ad2b01e4ad8e86ee201ecdd061e38f/Images/Novo%20nordisk%20logo.svg" 
       width="100px" 
       align="right" 
       alt="Novo Nordisk Logo" 
@@ -500,7 +500,7 @@ For more details on the campaign, visit our social media link:
       </mj-column>
       <mj-column width="30%" vertical-align="middle">
         <mj-image 
-          src="Images\Novo nordisk logo.svg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/81bbe3bac4ad2b01e4ad8e86ee201ecdd061e38f/Images/Novo%20nordisk%20logo.svg" 
           alt="Novo Nordisk Logo"
           width="100px" 
           align="right" 
