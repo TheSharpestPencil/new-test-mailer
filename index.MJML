@@ -173,7 +173,7 @@
           font-size="16px"
           line-height="1.6"
         >
-        <span style="vertical-align:center; horizontal-align:center; font-family: Arial, sans-serif; font-size:25px; line-height:1.2;"; ><strong>South Africa Joins the Healthy Cycling Challenge!
+        <span style=" margin: 10px 0px 10px 0px; font-family: Arial, sans-serif; font-size:25px; line-height:1.2;" ><strong>South Africa Joins the Healthy Cycling Challenge!
 </strong><br/></span>
 
             We’re excited to announce that South Africa has joined the Healthy Cycling Challenge as part of our momentum leading up to World Diabetes Day (WDD)! As part of this 
@@ -189,7 +189,7 @@
 For more details on the campaign, visit our social media link:
       </mj-text>
         <mj-button
-          href="https://www.facebook.com/novonordisk/videos/24700547429545227/?rdid=tlo1Mx9VUFvbyxDA"
+          href="https://x.com/novonordisklive/status/1930577207224840276?s=48"
           padding="20px 0px"
           border-radius="55px"
           border="5px solid #0365d8"
@@ -209,7 +209,6 @@ For more details on the campaign, visit our social media link:
         padding="0px 25px"
       >
     <mj-image 
-    href="https://x.com/novonordisklive/status/1930577207224840276?s=48"
       src="Images\IMG-20250613-WA0002.jpg" 
       alt="Cycling Challenge Image" 
       border="5px solid #005ad2"
@@ -243,7 +242,7 @@ For more details on the campaign, visit our social media link:
          drive important policy conversations, and reinforce our purpose of improving lives. 
          <span 
         >
-          <a href="https://example.com" style="color: #0365d8; text-decoration: underline; font-weight:bold; ">Read more</a>
+          <a href="https://novonordisk.sharepoint.com/:f:/s/MarketAccessPublicAffairs/ErEDHk1YOkxHjtAxRzJ1jnkBusfeh7bFQQYd8p4EeHHibg?e=RJl0aE" style="color: white; text-decoration: underline; font-weight:bold; font-style:italic ">Read more</a>
         </mj-text>
 
 
@@ -405,6 +404,7 @@ For more details on the campaign, visit our social media link:
          (COPI)! Let's start by experiencing the energy of the World Obesity Day Summit through 
 
          <a  href="https://novonordisk.sharepoint.com/:v:/s/CBH-ChildhoodObesityPreventionInitiative/EWeDHWK-nFNFrV1u_Sy09bwBIcGuy6sw9sr55-lFgiKcug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1TTLxi"
+          target="blank"
           style= "text-decoration: none;"
   
             ><span
@@ -420,35 +420,6 @@ For more details on the campaign, visit our social media link:
 
 
          </mj-text>
-
-         
-        
-
-  </mj-column>
-</mj-section>
-
-
-
-
-
-
-<!--table to be put -->
-<mj-section background-color="#ffffff" padding="0px 25px">
-  <!-- Left Column: Image -->
-  <mj-column width="40%"  align="center" padding="20px 26px 10px 26px">
-
-    <mj-image
-      src="Images\healthy kiddie foods.svg"
-      alt="Lifestyle Icons"
-     align="center"
-     vertical-align="middle"
-
-      width="500px"
-    />
-  </mj-column>
-
-  <!-- Right Column: Text Content -->
-  <mj-column width="60%"  padding="0px 0px">
     <mj-text
       align="left"
       color="#005ad2"
@@ -456,7 +427,7 @@ For more details on the campaign, visit our social media link:
       font-size="15px"
       line-height="1.7"
         vertical-align="middle"
-      padding="0px 8px 10px 20px"
+      padding="0px 8px 10px 0px"
     >
 
       <p style="margin: 0 0 10px 0;">
@@ -464,10 +435,12 @@ For more details on the campaign, visit our social media link:
       </p>
 
       <p style="margin: 0;">
-        Thank you for your continued commitment to building a healthier future for our children! Learn more about the partnership 
-        <a href="https://example.com" style="color: #222660;font-weight: bold; font-style: italic;">here</a>.
+        Thank you for your continued commitment to building a healthier future for our children!
       </p>
     </mj-text>
+         
+        
+
   </mj-column>
 </mj-section>
 
