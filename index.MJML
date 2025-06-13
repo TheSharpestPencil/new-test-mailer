@@ -27,7 +27,7 @@
 
     <mj-column width="40%">
     <mj-image 
-      src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/81bbe3bac4ad2b01e4ad8e86ee201ecdd061e38f/Images/Novo%20nordisk%20logo.svg" 
+      src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/44b16876c17bd9e56d4058966955c366b332c37b/Images/Novo%20nordisk%20logo.svg" 
       width="100px" 
       align="right" 
       alt="Novo Nordisk Logo" 
@@ -39,7 +39,7 @@
 
 <!-- Section 2: Hero Banner - Full-width image background with blue text box -->
 <mj-section 
-  background-url="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/main/Images/Header%20image-02.jpg" 
+  background-url="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Header%20image-02.jpg" 
   background-size="cover" 
   background-repeat="no-repeat" 
   background-color="#003878" 
@@ -58,7 +58,7 @@
   </mj-column>
 
   <mj-column  width="40%">
-    <mj-img src="Images/Blue shape.svg"/>
+    <mj-img src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/44b16876c17bd9e56d4058966955c366b332c37b/Images/Blue%20shape.svg"/>
 
   </mj-column>
 
@@ -500,7 +500,7 @@ For more details on the campaign, visit our social media link:
       </mj-column>
       <mj-column width="30%" vertical-align="middle">
         <mj-image 
-          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/81bbe3bac4ad2b01e4ad8e86ee201ecdd061e38f/Images/Novo%20nordisk%20logo.svg" 
+          src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/44b16876c17bd9e56d4058966955c366b332c37b/Images/Novo%20nordisk%20logo.svg" 
           alt="Novo Nordisk Logo"
           width="100px" 
           align="right" 
