@@ -348,7 +348,7 @@ For more details on the campaign, visit our social media link:
     <mj-group>
 
       <!-- Left Column: Image -->
-      <mj-column align="center" vertical-align="middle" padding="0px 0px 20px 35px" width="55%">
+      <mj-column align="center" vertical-align="middle" padding="0px 0px 0px 35px" width="55%">
 
 
              <mj-text
@@ -358,7 +358,7 @@ For more details on the campaign, visit our social media link:
           font-size="14px"
           line-height="1.6"
         >
-          <span style="display:block; font-family: Arial, sans-serif; font-size:25px; font-weight: bold; margin-bottom: 15px;">
+          <span style="display:block; font-family: Arial, sans-serif; font-size:25px; font-weight: bold; margin-bottom: 1px;">
            Novo Health Week Wrap-Up
           </span>
 
@@ -367,7 +367,12 @@ For more details on the campaign, visit our social media link:
            insights, and promote awareness about essential mental health topics.<br/><br/> Highlights included a Healthy Breakfast showcasing 
            delicious dishes prepared by our colleagues, an enlightening Online Lecture on "The Importance of Mental Health," and 
            interactive sessions like "Walk & Talk" and "Mental Health and Stigma." Thank you to everyone who participated in making 
-           this week a true celebration of mental well-being!
+           this week a true celebration of mental well-being!      <span  style="color:#FFFFFF; font-weight: bold;"> Novo Health week – </span>  <span><a
+        href="https://novonordisk.sharepoint.com/:f:/s/MarketAccessPublicAffairs/EtqEEJP-98xEvNKpnXXWDZ0BF9w1ABkhVwGs5i0SIb20jg?e=cy43EW"
+
+        >
+          <span style=' margin: 10px 0px ; padding:10px 10px; border-radius:55px; border:5px solid #FFFFFF; background-color:#e6553f; color:#FFFFFF; font-weight:bold; display:inline-block; text-align:left;'>Click to see more photos</span>
+        </a></span> 
 
         </mj-text>
       </mj-column>
@@ -503,12 +508,7 @@ For more details on the campaign, visit our social media link:
          Please share highlights or content you would like featured in the edition to HIJM by 15 August. The next newsletter will go out at the end of August, so we would appreciate contributions by then to allow enough time for curation. 
 
       </p>
-      <span style="color:#e6553f; font-weight: bold; "> Novo Health week – </span>  <span><a
-        href="https://novonordisk.sharepoint.com/:f:/s/MarketAccessPublicAffairs/EtqEEJP-98xEvNKpnXXWDZ0BF9w1ABkhVwGs5i0SIb20jg?e=cy43EW"
-
-        >
-          <span style='padding:10px 10px; border-radius:55px; border:5px solid #e6553f; background-color:#ffffff; color:#e6553f; font-weight:bold; display:inline-block; text-align:left;'>Click to see more photos</span>
-        </a></span> </mj-text>       
+ </mj-text>       
        
        
 
