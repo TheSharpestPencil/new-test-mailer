@@ -51,7 +51,7 @@
       color="#ffffff"
       line-height="1.4"
     >
-      NOVO NORDISK ®<br/>
+      NOVO NORDISK<sup>&reg</sup><br/>
       <span  style="font-size: 45px; font-weight: bold;">NEWSLETTER</span><br/>
       <span style="font-size: 16px; font-style: italic;">MAY/JUNE 2025 | Issue: 1</span>
     </mj-text>
@@ -63,6 +63,29 @@
   </mj-column>
 
 </mj-section>
+
+
+
+    <!-- congress updates -->
+
+    <mj-section background-color="#ffffff" padding="0px 20px">
+      
+      <mj-column vertical-align="middle" background-color="#eea7bf" padding="20px 29px">
+        <mj-text
+          align="center"
+          color="#ffffff"
+          font-family="Arial, sans-serif"
+          font-size="18px"
+          line-height="1.5"
+        >
+                Welcome to our May-June update – a quick look at the moments, <br/>milestones 
+                and momentum that have shaped the past two months!
+        </mj-text>
+
+
+      </mj-column backround-color="#0365d8" >
+
+    </mj-section>
 
 
     <!-- Section 6: ECO 2025 Conference - Two-column layout with logo -->
@@ -87,7 +110,7 @@
         >
         <span style="vertical-align:center; horizontal-align:center; font-family: Arial, sans-serif; font-size:25px;" ><strong>Campaigns & Highlights</strong><br/></span>
 
-        As we build momentum, we have already started activations and engagements 
+        As we build momentum to the Wegovy<sup>&reg</sup><sup>&reg</sup> launch, we have already started activations and engagements 
         through key campaigns, congresses, and other strategic touchpoints to increase 
         awareness, activate and empower patients, deepen audience connection, and leverage
         innovation to improve outcomes.
@@ -108,7 +131,7 @@
       <mj-column align="center" vertical-align="middle" padding="0px 5px" width="35%">
         <mj-image 
           src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/main/Images/Counterfeit.png" 
-          alt="Comrades Marathon Image" 
+          alt="Anti-counterfiet post image" 
           padding="0px 5px 5px 5px"
           align="center"
         />
@@ -138,7 +161,7 @@
         </mj-text>
 
         <mj-button
-          href="https://www.facebook.com/novonordisk/videos/24700547429545227/?rdid=tlo1Mx9VUFvbyxDA"
+          href="https://novonordisk.sharepoint.com/:b:/s/MarketAccessPublicAffairs/ERS2rpjmWWtPvLd2pb21i6sB6dN9UrIqb8fprUliQQ0g_g"
           padding="10px 0px 0px 0px"
           border-radius="55px"
           border="5px solid #ffffff"
@@ -295,17 +318,17 @@ For more details on the campaign, visit our social media link:
           line-height="1.6"
         >
           <span style="display:block; font-family: Arial, sans-serif; font-size:25px; font-weight: bold; margin-bottom: 15px;">
-            Wegovy Bootcamp 6-12 June, Radisson Blu, Sandton
+            Wegovy<sup>&reg</sup> Bootcamp 6-12 June, Radisson Blu, Sandton
           </span>
 
                   <span style="display:block; font-family: Arial, sans-serif; font-size:15px; font-weight: bold; margin-bottom: 15px;">
             The Weight is over…WeGo Together…WeGo Forward….WeGo Further….WeGo…For Results
           </span>
-          Get ready for the excitement! Kicking off on June 6th, our teams plunged into the world of Wegovy, the only once-a-week 
+          Get ready for the excitement! Kicking off on June 6th, our teams plunged into the world of Wegovy<sup>&reg</sup>, the only once-a-week 
           GLP-1 therapy for weight loss in South Africa, backed by compelling clinical trials. With insights from experts like 
-          Cardiologist Dr. Tsebetse, we explored the critical link between cardiovascular disease and obesity, reinforcing Wegovy’s 
-          MACE benefits alongside our dedicated medical colleagues. <br/><br/>The action-packed week featured the dynamic 20:20:20 Wegovy strategy, 
-          in-depth competitor training, and effective objection handling. Our united Wegovy sales team, fuelled by determination, rose to 
+          Cardiologist Dr. Tsebetse, we explored the critical link between cardiovascular disease and obesity, reinforcing Wegovy<sup>&reg</sup>’s 
+          MACE benefits alongside our dedicated medical colleagues. <br/><br/>The action-packed week featured the dynamic 20:20:20 Wegovy<sup>&reg</sup> strategy, 
+          in-depth competitor training, and effective objection handling. Our united Wegovy<sup>&reg</sup> sales team, fuelled by determination, rose to 
           the challenge, showcasing their expertise in two thrilling days of competitive selling. They emerged as true champions, ready to 
           serve powerful punches to LASPEN and Mounjaro!
 
@@ -445,8 +468,10 @@ For more details on the campaign, visit our social media link:
 </mj-section>
 
 
+
+
 <!-- Section 5: Comrades image -->
-<mj-section background-color="#ffffff" padding="0px 25px 20px 25px">
+<mj-section background-color="#ffffff" padding="0px 25px 0px 25px">
   <mj-column>
     <mj-image 
       src="https://raw.githubusercontent.com/TheSharpestPencil/new-test-mailer/refs/heads/test-2/Images/Section%20image_2.png" 
@@ -456,7 +481,43 @@ For more details on the campaign, visit our social media link:
   </mj-column>
   </mj-section>
 
+<mj-section background-color="#ffffff" padding="10px 0px">
+  <!-- Pink-gray container with drop shadow -->
+  <mj-column  padding="0" >
+    <!-- Inner section: two-column layout -->
 
+
+  <mj-column align="center" vertical-align="middle" padding="0px 16px">
+
+
+  <mj-text
+      align="left"
+      color="#005ad2"
+      font-family="Arial, sans-serif"
+        font-size="14px"
+        line-height="1.6"
+        style = "text-decoration: none;"
+      >
+                <p style="margin: 0 0 10px 0;">
+         Please share highlights or content you would like featured in the edition to HIJM by 15 August. The next newsletter will go out at the end of August, so we would appreciate contributions by then to allow enough time for curation. 
+
+      </p>
+       Novo Health week – 
+        
+         <a  href="https://novonordisk.sharepoint.com/:f:/s/MarketAccessPublicAffairs/EtqEEJP-98xEvNKpnXXWDZ0BF9w1ABkhVwGs5i0SIb20jg?e=cy43EW"
+          target="blank"
+          style= "text-decoration: none;"
+  
+            ><span
+           style= " text-decoration:none; color:#222660; font-style:italic;"><strong>Click to see more photos</strong></span></a>.
+
+
+         </mj-text>
+
+        
+
+  </mj-column>
+</mj-section>
 
  <!-- Section 15: Footer - disclaimer -->
     <mj-section background-color="#ffffff" padding="10px 25px">
@@ -478,6 +539,8 @@ For more details on the campaign, visit our social media link:
         </mj-text>
       </mj-column>
     </mj-section>
+
+
 
     <!-- Section 12: Footer - Company information and logo -->
 
